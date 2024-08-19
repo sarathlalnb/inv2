@@ -1,0 +1,14 @@
+.snackbar{
+    height: 550px;
+    overflow-x: scroll;
+    border-radius: 1%;
+}
+.snackbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .snackbar-buttons button {
+    margin-left: 10px;
+  }

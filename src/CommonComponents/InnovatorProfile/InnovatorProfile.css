@@ -1,0 +1,63 @@
+.box{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white ;
+    height: 120px;
+    position: absolute;
+}
+.profile{
+    position: relative !important;
+   
+}
+.Profile-Img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 0, 0);
+    margin-top: 23% !important;
+}
+.about{
+    text-align: justify;
+}
+.about-head h3 {
+    border-bottom: 4px solid black; /* Adjust the thickness as needed */
+    display: inline-block; /* Ensures the underline only covers the text width */
+  }
+  .button:hover{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+  }
+  .button{
+    background-color: rgb(23, 22, 22);
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+  }
+  .details{
+    margin-top: 10% !important;
+  }
+
+  .edit-profile-img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  .input-field{
+    border-radius: 5px;
+    padding: 1.5%;
+
+  }
+
+  @media ((max-width:1399px) and (min-width:996px)){
+.details{
+    margin-top: 13% !important;
+}
+  }
+
+  @media(max-width:996px){
+    .details{
+        margin-top: 0% !important;
+        text-align: center;
+    }
+  }

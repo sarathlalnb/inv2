@@ -1,0 +1,15 @@
+.asideBody{
+    background-image:linear-gradient(to right, #000000, #000000) !important;
+   height: 100vh ;
+   width: 30%;
+   color: white;
+}
+.siteName{
+   letter-spacing: .5rem !important;
+   font-weight: 700 !important;
+   font-family: monospace;
+}
+.aside{
+   min-height: 100vh !important;
+   height: 100%;
+}

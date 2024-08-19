@@ -1,0 +1,67 @@
+.msg-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: calc( 100vh - 80px );
+}
+.msg-left{
+    /* border-radius: 20px; */
+    overflow-y: auto;
+    max-height: 100%;
+}
+.msg-right{
+    /* border-radius: 20px; */
+    /* overflow-y: auto; */
+    /* max-height: 100%; */
+
+}
+.text-outline {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.list-group-item.active {
+    background-color: #1b4064 !important;
+  }
+  .msg-input{
+    resize: none;
+    text-wrap: wrap;
+    /* border-top-left-radius: 20px !important; */
+    /* padding: 20px; */
+  }
+  .msg-input-box{
+    /* position: absolute; */
+    bottom:2%;
+    /* top:90%; */
+    height: 50px;
+
+    box-sizing: border-box;
+  }
+  .msg-input-box .btn{
+    /* border-top-right-radius: 20px !important; */
+  }
+ .msg-container{
+    width: 100%;
+    height: calc( 95vh - 130px );
+    overflow-y: auto;
+ }
+ .msg-outer-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .msg-outer-box.received{
+    align-items:start ;
+ }
+ .msg-outer-box.sent{
+    align-items:end ;
+ }
+ .msg-outer-box.sent .msg-box{
+    background-color: #68af7e ;
+    color: rgb(7, 5, 5);
+ }
+ .msg-outer-box.received .msg-box{
+   background-color: #e3eee6 ;
+   color: rgb(7, 5, 5);
+}
+ .msg-box{
+    max-width: 80%;
+ }
+

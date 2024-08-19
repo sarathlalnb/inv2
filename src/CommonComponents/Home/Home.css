@@ -1,0 +1,78 @@
+.investment-img{
+   height: 500px; 
+   width:100%;
+}
+.head1{
+    font-size: 70px;
+}
+.head2{
+    color: rgb(78, 75, 75);
+}
+.aboutUs-head{
+    font-size: 40px;
+}
+.aboutUs-body{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.aboutUsImg{
+    height: 272px;
+    object-fit:cover;
+}
+.img{
+object-fit: cover;
+}
+.services{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    align-items: center !important;
+    padding: 5%;
+    text-align: justify;
+    height: 455px;
+}
+
+.services:hover{
+    transform: scale(1.05);
+    transition: 1s  ease-out;
+}
+
+.services-Img{
+    height: 200px;
+    margin: 4%;
+}
+
+.review-head{
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.review-text{
+  padding: 1%;
+  height: 150px;
+}
+
+  .review-details{
+    background-color: rgba(48, 48, 48, 0.069);
+    color: rgb(0, 0, 0);
+    padding: 2%;
+  }
+  .review-profile{
+    height:60px ;
+    width: 60px;
+    border-radius: 50% ;
+
+  }
+  .review {
+    margin: 1%;
+    text-align: justify;
+    padding: 2%;
+    display: inline-block;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    animation: marquee-animation 10s linear infinite;
+    white-space: pre-line;
+  }
+  .Rating .MuiRating-iconEmpty {
+    color: red 2px solid; 
+  }
+

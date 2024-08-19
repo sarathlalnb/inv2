@@ -1,0 +1,15 @@
+.header {
+    z-index: 2;
+    
+}
+.navlink{
+    color:black;
+
+}
+.active,.navlink:hover{
+    color: rgb(116, 116, 116);
+}
+.logo-img{
+    height: 50px;
+}
+

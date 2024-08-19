@@ -1,0 +1,25 @@
+.footer-body{
+    background-color: black;
+    width: 100%;
+    padding: 2%;
+    color: rgb(225, 220, 220)  !important;
+}
+.logo-footer{
+    height: 60px;
+}
+.media-icons{
+    background-color: transparent;
+    color: white;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media-icons:hover{
+    background-color: white;
+    color: black;
+}
